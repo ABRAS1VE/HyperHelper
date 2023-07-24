@@ -32,21 +32,27 @@ p {
     font-size: 16px;
 }
 
-    p.a {
-        color:aquamarine;
+p.items {
+    text-align: center;
 }
 
-    p.b {
-        color:cadetblue;
+p.items {
+    text-align: center;
+    
+}
+
+.items:hover {
+    text-shadow: 2px 1px cyan, -2px -1px magenta;
 }
 
 div.sticky1 {
         position: fixed;
+        left: 6px;
         bottom: 0px;
         padding: 0px;
         margin: 0px;
         z-index: 999;
-        text-shadow: 2px 1px cyan, -2px -1px red;
+        text-shadow: 2px 1px cyan, -2px -1px magenta;
         padding: 0;
 }
 
@@ -55,9 +61,7 @@ div.sticky2 {
         position: relative;
         height: 100px;
         width: 100px;
-        top: 0px;
         z-index: 999;
-        text-shadow: 2px 1px cyan, -2px -1px red;
 }
 
 li {
@@ -74,7 +78,6 @@ h1 {
     
 }
 h1.b {
-    z-index: 999;
     text-align: center;
     text-shadow: 5px 1px cyan, -5px -1px magenta;
 }
@@ -115,9 +118,14 @@ background: transparent;
 }
 
 img.run {
+    border: 0px;
     position:fixed;
     width:70;
     height: 70px;
-    bottom:-40px;
+    bottom:-25px;
     right: 0px
+}
+img.items {
+    align-content: center;
+    
 }
