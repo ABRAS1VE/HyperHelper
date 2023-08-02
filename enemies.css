@@ -1,0 +1,132 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #000000;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;;
+    padding: 2em 2em 4em;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.3;
+    font-variant: small-caps;
+    font-family: "Oxanium", serif;
+    font-size: 30px;;
+}
+
+p {
+    color:#fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+
+p.items {
+    text-align: center;
+}
+
+p.items {
+    text-align: center;
+    
+}
+
+.items:hover {
+    text-shadow: 2px 1px cyan, -2px -1px magenta;
+}
+
+div.sticky1 {
+        position: fixed;
+        left: 6px;
+        bottom: 0px;
+        padding: 0px;
+        margin: 0px;
+        z-index: 999;
+        text-shadow: 2px 1px cyan, -2px -1px magenta;
+        padding: 0;
+}
+
+div.sticky2 {
+        background-image: url("Drifter_Run.gif")
+        position: relative;
+        height: 100px;
+        width: 100px;
+        z-index: 999;
+}
+
+li {
+    color:#fff;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 60px;;
+    
+    
+}
+h1.b {
+    text-align: center;
+    text-shadow: 5px 1px cyan, -5px -1px magenta;
+}
+
+a {
+    color: #0083e8;
+}
+a.a:link, a:visited {
+  background-color: black;
+  border-style: double;
+    border-color: white;
+  color: white;
+  padding: 14px 25px;
+    margin: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    font-family: "Poppins";
+}
+
+a.a:hover, a:active {
+    text-shadow: 3px 1px cyan, -3px -1px magenta;
+}
+
+
+b, strong {
+    font-weight: 600;
+}
+
+img {
+    
+background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 80%;
+}
+
+img.run {
+    border: 0px;
+    position:fixed;
+    width:70;
+    height: 70px;
+    bottom:-25px;
+    right: 0px
+}
+img.items {
+    align-content: center;
+    
+}
