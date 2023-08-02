@@ -1,2 +1,2 @@
 # HyperHelper
-An example website doubling as a video game guide.
+An example of a responsive website doubling as a video game guide.
